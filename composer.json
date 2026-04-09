@@ -1,0 +1,31 @@
+{
+    "name": "vicistack/tcpa-compliance-2026",
+    "description": "TCPA 2026 compliance for call centers",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "tcpa",
+        "compliance",
+        "2026"
+    ],
+    "homepage": "https://vicistack.com/blog/tcpa-compliance-2026/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\TcpaCompliance2026\\": "src/"
+        }
+    }
+}
